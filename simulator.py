@@ -11,7 +11,7 @@ import paho.mqtt.client as mqtt
 from datetime import datetime, timezone
 
 # MQTT Configuration
-MQTT_BROKER = "10.116.227.185"
+MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
 
 # File to store cumulative rain
